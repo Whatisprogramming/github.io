@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.search-box{
+    position: absolute;
+    right: 50%;
+    margin-top: auto;
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+.search-box:hover > .search-btn{
+     background: white;
+}
+.search-btn{
+    color: #e84118;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+    width: 0px;
+    transition: 0.4s;
+}
+
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background: #252A33;
+    opacity: 0.9;
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    width: 160px;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: #0088a9;
+}
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer; 
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+.p1{
+    margin-top: 50px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 25px;
+    background: slategray;
+    opacity: 0.9;
+    margin-right: 30%;
+}
+h1{
+    margin-left: 23%;
+    font-family: 'Staatliches', cursive;
+}
+h1:hover{
+    color: #2f3640;
+}
+.h2{
+    margin-left: 13%;
+    font-size: 30px;
+    font-family: 'Staatliches', cursive;
+}
+h2:hover{
+    color: #2f3640;
+}
+.p3{
+    margin-left: 11%;
+    margin-top: 30px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 23px;
+    opacity: 0.9;
+    margin-right: 30%;
+}
+.p2{
+    margin-top: 30px;
+    background: transparent;
+    opacity: 0.9;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 23px;
+    margin-left: 11%;
+    margin-right: 30%;
+}
+.h3{
+    margin-left: 13%;
+    font-size: 30px;
+    font-family: 'Staatliches', cursive;
+}
+.p4{
+    margin-left: 11%;
+    margin-top: 30px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 23px;
+    opacity: 0.9;
+    margin-right: 30%;
+}
+.h4{
+    margin-left: 13%;
+    font-size: 30px;
+    font-family: 'Staatliches', cursive;
+}
+.p5{
+    margin-left: 11%;
+    margin-top: 30px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 23px;
+    opacity: 0.9;
+    margin-right: 30%;
+}
+.p6{
+    margin-left: 11%;
+    margin-top: 50px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 23px;
+    opacity: 0.9;
+    margin-right: 30%;
+}
+.p7{
+    margin-left: 11%;
+    margin-top: 50px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 23px;
+    opacity: 0.9;
+    margin-right: 30%;
+}
+.h5{
+    margin-left: 13%;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    transition: 3s ease;
+}
+.h6{
+    margin-left: 13%;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+.h7{
+    color: black;
+    margin-left: 13%;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    transition: 3s ease;
+}
+.h5:hover{
+    font-size: 30px;
+}
+.a1{
+        color: #192D33;
+        margin-left: 10px;
+        font-family: 'Righteous', cursive;
+        font-size: 30px;
+        transition: 3s ease;
+    }
+.a1:hover{
+        margin-left: 13%;
+        font-family: 'Righteous', cursive;
+        font-size: 30px;
+    }
+    .a2{
+        color: #192D33;
+        margin-left: 50px;
+        font-family: 'Righteous', cursive;
+        font-size: 30px;
+        transition: 3s ease;
+        margin-top: 8px;
+    }
+.a2:hover{
+        margin-left: 13%;
+        font-family: 'Righteous', cursive;
+        font-size: 30px;
+    }
+    .a3{
+        color: #192D33;
+        margin-left: 10px;
+        font-family: 'Righteous', cursive;
+        font-size: 30px;
+        transition: 3s ease;
+        margin-top: 10px;
+    }
+    .a3:hover{
+        margin-left: 13%;
+        font-family: 'Righteous', cursive;
+        font-size: 30px;
+    }
+    .a9{
+        color: #192D33;
+        margin-left: 14%;
+        font-family: 'Righteous', cursive;
+        font-size: 30px;
+        transition: 3s ease;
+        margin-top: 10px;
+    }
+    .a9:hover{
+        margin-left: 20%;
+        font-family: 'Righteous', cursive;
+        font-size: 30px;
+    }
+iframe{
+    margin-left: 11%;
+}
+.topbutton{
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin-left: 10px;
+    color: #8DA399;
+}
+.topbutton i{
+    color: black;
+    padding: 18px;
+}
+.topbutton i:hover{
+    color: #213233;
+}
+.inner-footer{
+    margin: 0;
+    padding: 0;
+    background-color: #272727;
+}
+.social-links{
+    display: flex;
+}
+.social-links ul{
+    padding: 10px;
+    display: flex;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+}
+.social-items{
+    list-style: none;
+}
+.social-items a{
+    padding: 10px 20px;
+    font-size: 35px;
+    color: #6cccc6;
+    transition: all .25s;
+    }
+    .social-items a:hover{
+        color: #54a39e;
+    }
+.quick-links{
+    display: flex;
+    width: 560px;
+    height: 70px;
+    margin: auto;
+}
+.quick-links ul{
+    display: flex;
+}
+.quick-items{
+    list-style: none;
+}
+.quick-items a{
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 18px;
+    color: white;
+    transition: all .25s;
+}
+.quick-items a:hover{
+    color: #6cccc6;
+}
+.outer-footer{
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: #3f3f3f;
+}
