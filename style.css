@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-body{
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&family=Roboto:wght@100&display=swap');body{
     margin: 0;
     padding: 0;
     background-color: white;
@@ -183,11 +183,15 @@ h2:hover{
     font-family: 'Righteous', cursive;
     font-size: 30px;
     transition: 3s ease;
+    display: none;
+    opacity: 0;
 }
 .h6{
     margin-left: 13%;
     font-family: 'Righteous', cursive;
     font-size: 30px;
+    display: none;
+    opacity: 0;
 }
 .h7{
     color: black;
@@ -195,9 +199,13 @@ h2:hover{
     font-family: 'Righteous', cursive;
     font-size: 30px;
     transition: 3s ease;
+    display: none;
+    opacity: 0;
 }
 .h5:hover{
     font-size: 30px;
+    display: none;
+    opacity: 0;
 }
 .a1{
         color: #192D33;
@@ -218,11 +226,15 @@ h2:hover{
         font-size: 30px;
         transition: 3s ease;
         margin-top: 8px;
+        display: none;
+        opacity: 0;
     }
 .a2:hover{
         margin-left: 13%;
         font-family: 'Righteous', cursive;
         font-size: 30px;
+        display: none;
+        opacity: 0;
     }
     .a3{
         color: #192D33;
@@ -231,11 +243,15 @@ h2:hover{
         font-size: 30px;
         transition: 3s ease;
         margin-top: 10px;
+        display: none;
+        opacity: 0;
     }
     .a3:hover{
         margin-left: 13%;
         font-family: 'Righteous', cursive;
         font-size: 30px;
+        display: none;
+        opacity: 0;
     }
     .a9{
         color: #192D33;
@@ -244,11 +260,15 @@ h2:hover{
         font-size: 30px;
         transition: 3s ease;
         margin-top: 10px;
+        display: none;
+        opacity: 0;
     }
     .a9:hover{
         margin-left: 20%;
         font-family: 'Righteous', cursive;
         font-size: 30px;
+        display: none;
+        opacity: 0;
     }
 iframe{
     margin-left: 11%;
@@ -260,6 +280,59 @@ iframe{
     margin-left: 10px;
     color: #8DA399;
 }
+/*.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.wrapper .toast{
+    background: #fff;
+    padding: 20px 15px 20px 20px;
+    border-radius: 10px;
+    width: 430px;
+    display: flex;
+    align-items: center;
+    border-left: 5px solid #2ecc71;
+    justify-content: space-between;
+    box-shadow: 1px 7px 14px -5px rgba(0, 0, 0, 0.15);
+}
+.toast .content{
+    display: flex;
+    align-items: center;
+}
+.toast .content .icon{
+    font-size: 25px;
+    background: #2ecc71;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+}
+.toast .content .details{
+    margin-left: 15px;
+}
+.content .details span{
+    font-size: 20px;
+    font-weight: 500;
+}
+.content .details p{
+    color: #878787;
+}
+.toast .close-icon{
+    background: #f2f2f2;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 23px;
+    cursor: pointer;
+    color: #878787;
+    border-radius: 50%;
+}
+*/
 .topbutton i{
     color: black;
     padding: 18px;
@@ -322,4 +395,29 @@ iframe{
     color: white;
     font-size: 18px;
     background-color: #3f3f3f;
+}
+#learn-div{
+    width: 100px;
+    height: 100px;
+    border: none;
+    margin-left: 11%;
+}
+.learn-btn{
+   height: 50px;
+   width: 50px;
+   align-content: center;
+}
+.learn-h2{
+    font-size: 18px;
+    top: 40px;
+    cursor: pointer;
+    opacity: 1;
+    font-family: 'Roboto Slab', serif;
+}
+#Close{
+    width: 30px;
+    height: 30px;
+    display: none;
+    background-color: #901200;
+    margin-left: 80%;
 }
